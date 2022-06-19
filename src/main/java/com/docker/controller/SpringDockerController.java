@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringDockerController {
 	
-	@GetMapping(value = "hello")
+	@GetMapping("/hello")
 	public String getHelloDocker() {
 		return "Hello SpringBoot Docker Demo project....";
 	}
